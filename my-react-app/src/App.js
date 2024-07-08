@@ -15,7 +15,7 @@ function App() {
     
     try {
       const articles = await fetchData();
-      console.log(articles['data'],'sadasdas')
+      console.log(articles['data'],'')
       setData(articles['data']);
     
     } catch (error) {
